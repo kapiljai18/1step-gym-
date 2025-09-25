@@ -1,0 +1,81 @@
+html{
+    scroll-behavior: smooth;
+}
+
+/* .backtotop{
+    animation-name: appear;
+    animation-timeline: scroll(y);
+} */
+
+/* @keyframes appear{
+    10%{
+        opacity: 0;
+        display: none;
+        position: fixed;
+    }
+    3%{
+        opacity: 0;
+        display: none;
+    }
+    3.5%{
+        opacity: 1;
+        display: none;
+    }
+
+    100%{
+        opacity: 1;
+        display: none;
+        position: fixed;
+    }
+} */
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+
+}
+
+.navbar .nav-item .nav-link {
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+}
+
+
+/* body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    } */
+
+    /* Just for demo - long page */
+    .content {
+      height: 200px;
+      padding: 20px;
+    }
+
+    /* Back to top button */
+    #backToTop {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      display: none; /* hidden by default */
+      background: rgb(242, 154, 61);
+      color: #fff;
+      border: none;
+      padding: 10px 18px;
+      border-radius: 15px;
+      cursor: pointer;
+      font-size: 20px;
+      transition: 0.3s;
+    }
+
+    #backToTop:hover {
+      background: #86837e;
+    }
+
+    /* signin  */
+
+    
+		
